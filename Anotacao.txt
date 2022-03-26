@@ -1,0 +1,10 @@
+Aula Daniel Augusto - Fundamentos de programção Front-end. 
+
+Pontos a serem pesquisados:
+Pesquisar recomendações da W3C;
+Pesquisar Tipos de dados, funções, objetos e estruturas de controle de fluxo de JavaScript;
+Pesquisar Manipulação DOM;
+
+Objetivo é capacitar em padrões web, HTML, CSS e JavaScript
+
+Referencia: MDN Web Docs e fora outras.
