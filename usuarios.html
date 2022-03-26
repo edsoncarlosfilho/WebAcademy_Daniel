@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>SGCM</title>
+        <link rel="stylesheet" href="estilo.css">
     <head>
     <body>
         <head>
@@ -28,7 +29,98 @@
                 <li><a href="usuarios.html">Usuarios</a></li>
             </ul>
         </nav>
-        <main></main>
-        <footer></footer>  
+        <main>
+            <div>
+                Erro!
+            </div>
+            <div>
+                Sucesso!
+            </div>
+            <form action="#" method="get">
+                <input type="hidden" name="id">
+                <label type="nomeCompleto">Nome</label>
+                <input type="text" name="nomeCompleto" id="nomeCompleto">
+                <label for="nomeUsuario"Usuario></label>
+                <input type="text" name="nomeUsuario" id="nomeUsuario" required>
+                <label type="senha">Senha</label>
+                <input type="password" name="senha" id="senha" required>
+                <label for="ativo">Ativo</label>
+                <input type="checkbox" name="ativo" id="ativo">
+                <label for="papel">Papel</label required>
+                <select name="papel" id="papel">
+                    <option value="USUARIO">USUARIO</option>
+                    <option value="ADMIN">ADMIN</option>
+                </select>
+                <input type="submit" value="Enviar">
+            </form>
+            <div id="comandos">
+                <button type="button">Adicionar</button>
+                <label for="busca">Buscar</label>
+                <input type="text" name="busca" id="busca" placeholder="Digite para Pesquisar">
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Usuário</th>
+                        <th>Ativo</th>
+                        <th>Papel</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td> 
+                        <td>Administrador</td>
+                        <td>admin</td>
+                        <td>Sim</td>
+                        <td>ADMIN</td>
+                        <tr>
+                            <button type="button">Editar</button>
+                            <button type="button">Excluir</button>
+                        </tr>
+                    </tr>
+                    <tr>
+                        <tr>2</tr>
+                        <tr>Edson</tr>
+                        <tr>edson</tr>
+                        <tr>Sim</tr>
+                        <tr>Usuario</tr>
+                        <tr>
+                            <button type="button">Editar</button>
+                            <button type="button">Excluir</button>
+                        </tr>
+                    </tr>
+                    <tr>
+                        <tr>3</tr>
+                        <tr>Marlon</tr>
+                        <tr>marlon</tr>
+                        <tr>Sim</tr>
+                        <tr>Usuario</tr>
+                        <tr>
+                            <button type="button">Editar</button>
+                            <button type="button">Excluir</button>
+                        </tr>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="6">Total de registros: 3</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </main>
+        <footer>
+            <span>
+                SGCM - Sistema de Gerenciamento de Clínica Médica
+            </span> 
+            <span>
+                Suporte técnico: (68) 99940-0043 | 
+                Email: 
+                <a href="mailto:suporte.sgcm@ufac.br">
+                suporte.sgcm@ufac.br</a>
+            </span>
+        </footer>  
     <body>
 <html>

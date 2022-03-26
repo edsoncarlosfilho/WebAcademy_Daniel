@@ -1,0 +1,23 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    height: 100vh;
+
+}
+
+
+header {
+   background-image: linear-gradient(#003366, #002225);
+}
+
+footer {
+    background-color: #003366, #003366;
+    margin-top: auto;
+}
+
+main {
+    background-image: # ;
+
+}

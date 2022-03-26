@@ -8,3 +8,7 @@ Pesquisar Manipulação DOM;
 Objetivo é capacitar em padrões web, HTML, CSS e JavaScript
 
 Referencia: MDN Web Docs e fora outras.
+
+Perder a semantica, verificar o que pode ser.
+
+Programa: Adobe Color Wheel
