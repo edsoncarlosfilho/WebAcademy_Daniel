@@ -6,8 +6,9 @@
         <link rel="stylesheet" href="estilo.css">
     <head>
     <body>
-        <head>
+        <header>
                  <div id="logo">
+                     <img src="logo.png">
                      <span>SGCM</span>
                  </div>
 
@@ -16,7 +17,7 @@
                     <span>Papel: Admin</span>
                     <button type="button">Logout</button>
                 </div>
-        </head>
+        </header>
         <nav>
             <ul>
                 <li><a href="agenda.html">Agenda</a></li>
@@ -30,10 +31,12 @@
             </ul>
         </nav>
         <main>
-            <div>
+            <div class="alerta erro">
+                <span>&times;</span>
                 Erro!
             </div>
-            <div>
+            <div class="alerta sucesso">
+                <span>&times;</span>
                 Sucesso!
             </div>
             <form action="#" method="get">
@@ -55,8 +58,10 @@
             </form>
             <div id="comandos">
                 <button type="button">Adicionar</button>
-                <label for="busca">Buscar</label>
-                <input type="text" name="busca" id="busca" placeholder="Digite para Pesquisar">
+                <div>
+                    <label for="busca">Buscar</label>
+                    <input type="text" name="busca" id="busca" placeholder="Digite para Pesquisar">
+                </div>
             </div>
             <table>
                 <thead>
@@ -76,10 +81,10 @@
                         <td>admin</td>
                         <td>Sim</td>
                         <td>ADMIN</td>
-                        <tr>
+                        <td>
                             <button type="button">Editar</button>
                             <button type="button">Excluir</button>
-                        </tr>
+                        </td>
                     </tr>
                     <tr>
                         <td>2</td>
@@ -87,10 +92,10 @@
                         <td>edson</td>
                         <td>Sim</td>
                         <td>Usuario</td>
-                        <tr>
+                        <td>
                             <button type="button">Editar</button>
                             <button type="button">Excluir</button>
-                        </tr>
+                        </td>
                     </tr>
                     <tr>
                         <td>3</td>
@@ -98,10 +103,10 @@
                         <td>marlon</td>
                         <td>Sim</td>
                         <td>Usuario</td>
-                        <tr>
+                        <td>
                             <button type="button">Editar</button>
                             <button type="button">Excluir</button>
-                        </tr>
+                        </td>
                     </tr>
                 </tbody>
                 <tfoot>
