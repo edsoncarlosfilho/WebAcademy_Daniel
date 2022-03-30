@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- responsividade -->
+        <meta name="viewport" content="width=device-width, user-scalable=no">  
+        <!-- responsividade -->
         <meta charset="utf-8">
         <title>SGCM</title>
         <link rel="stylesheet" href="estilo.css">
@@ -25,9 +28,20 @@
                 <li><a href="pacientes.html">Pacientes</a></li>
                 <li><a href="profissionais.html">Profissionais</a></li>
                 <li><a href="convenios.html">Convenios</a></li>
-                <li><a href="unidades.html">Unidades</a></li>
+                <li id="dropdown">
+                    <a href="javascript:void(0)">
+                        Configurações
+                        <i>&#9660;</i>
+                    </a>
+                    <div id="dropdown_conteudo">
+                        <li><a href="unidades.html">Unidades</a></li>
+                        <li><a href="especialidades">Especialidades</a></li>
+                        <li><a href="usuarios.html">Usuarios</a></li>
+                    </div>
+                </li>
+                <!-- <li><a href="unidades.html">Unidades</a></li>
                 <li><a href="especialidades">Especialidades</a></li>
-                <li><a href="usuarios.html">Usuarios</a></li>
+                <li><a href="usuarios.html">Usuarios</a></li> -->
             </ul>
         </nav>
         <main>
@@ -40,6 +54,7 @@
                 Sucesso!
             </div>
             <form action="#" method="get">
+              <div class="grid"></div>
                 <input type="hidden" name="id">
                 <label type="nomeCompleto">Nome</label>
                 <input type="text" name="nomeCompleto" id="nomeCompleto">
@@ -54,7 +69,9 @@
                     <option value="USUARIO">USUARIO</option>
                     <option value="ADMIN">ADMIN</option>
                 </select>
-                <input type="submit" value="Enviar">
+              </div>
+                <input type="button" value="Cancelar" disabled="disabled"> 
+                <input type="submit" value="Enviar" disabled="disabled">
             </form>
             <div id="comandos">
                 <button type="button">Adicionar</button>
@@ -66,7 +83,7 @@
             <table>
                 <thead>
                     <tr>
-                        <th>ID</th>
+                        <th class="fit"></th>
                         <th>Nome</th>
                         <th>Usuário</th>
                         <th>Ativo</th>
@@ -76,36 +93,36 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>1</td> 
+                        <td class="fit">1</td> 
                         <td>Administrador</td>
                         <td>admin</td>
                         <td>Sim</td>
                         <td>ADMIN</td>
                         <td>
                             <button type="button">Editar</button>
-                            <button type="button">Excluir</button>
+                            <button type="button" class="excluir">Excluir</button>
                         </td>
                     </tr>
                     <tr>
-                        <td>2</td>
+                        <td class="fit">2</td>
                         <td>Edson</td>
                         <td>edson</td>
                         <td>Sim</td>
                         <td>Usuario</td>
                         <td>
                             <button type="button">Editar</button>
-                            <button type="button">Excluir</button>
+                            <button type="button" class="excluir">Excluir</button>
                         </td>
                     </tr>
                     <tr>
-                        <td>3</td>
+                        <td class="fit">3</td>
                         <td>Marlon</td>
                         <td>marlon</td>
                         <td>Sim</td>
                         <td>Usuario</td>
                         <td>
                             <button type="button">Editar</button>
-                            <button type="button">Excluir</button>
+                            <button type="button" class="excluir">Excluir</button>
                         </td>
                     </tr>
                 </tbody>
