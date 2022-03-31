@@ -12,3 +12,5 @@ Referencia: MDN Web Docs e fora outras.
 Perder a semantica, verificar o que pode ser.
 
 Programa: Adobe Color Wheel
+
+Java scrip é a linguagem de programação [.JavaScript -.js]

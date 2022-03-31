@@ -18,7 +18,7 @@ header, footer{
 /* header */
 
 header {
-   background-image: linear-gradient(#23609c, #3e5b99);
+   background-image: linear-gradient(#003366, #002225);
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
@@ -67,6 +67,7 @@ div#usuarios span {
 
 div#usuarios button {
     margin-left: auto;
+    border: 1px solid;
 }
 
 @media screen and (max-width: 430px) {
@@ -86,7 +87,7 @@ div#usuarios button {
 /* Main */
 
 main {
-    background-image: linear-gradient(#cccccc, white);
+    background-image: linear-gradient(#555252, white);
     padding: 1em;
 
 }
@@ -94,7 +95,7 @@ main {
 /* Nav */
 
 nav {
-    background-color: #383838;
+    background-color: #555252;
     border: 1px solid white;
     border-bottom: 1px solid white;
 }
@@ -127,7 +128,7 @@ nav ul li a:hover {
 
 /* nav ul li {
     display: inline-block; */
-}
+
 
 nav li#dropdown:hover div#dropdown_conteudo {
     display: block;
@@ -151,7 +152,7 @@ nav div#dropdown_conteudo a {
         display: block;
         width: 100%;
     }
-    nav ul li  a {
+    nav ul li a {
         width: 100%;
     }
     nav div#dropdown_conteudo {
@@ -169,7 +170,7 @@ div.alerta{
     max-width: 400px;
     margin: 1em auto;
     word-wrap: break-word;
-    position: absolute;
+    /* position: absolute; */
     top: 0.5em;
     right: 0;
     left: 0;
@@ -183,16 +184,16 @@ div.alerta span{
 }
 
 div.alerta.erro{
-    background-color: #605a99;
-    color:#1ceb0a;
+    background-color: #c42626;
+    color:white;
     border: #0a0a0a;
 
 }
 
 div.alerta.sucesso{
-    background-color: #97ebb3;
-    color: #02531d;
-    border: white;
+    background-color: #0c08f5;
+    color: white;
+    border: #0a0a0a;
 
 }
 
@@ -207,7 +208,7 @@ table {
 }
 
 table th {
-    background-color: rgb(50, 50, 51);
+    background-color: #302f2f;
     color: white;
 
 }
@@ -232,7 +233,7 @@ table tbody tr:nth-child(even){
 }
 
 table tbody tr:hover {
-    background-color: aqua;
+    background-color: rgb(118, 122, 122);
 }
 
 @media  screen and (max-width: 480px) {
@@ -256,6 +257,7 @@ button, input[type="button"], input[type="submit"] {
     border-radius: 4px;
     height: 2em;
     cursor: pointer;
+    border: 1px solid;
 }
 
 button.excluir:hover:not(:disabled) {
@@ -286,6 +288,7 @@ input[type="submit"]:hover {
     padding: 0.5em 0.1em;
     border-bottom: 1px solid #003366;
     align-items: center;
+
  } 
 
 
